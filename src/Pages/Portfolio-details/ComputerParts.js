@@ -10,7 +10,7 @@ const ComputerParts = () => {
         <div className='laptop-sec'>
             <div className='container'>
                 <div className='row'>
-                    <div className='col-lg-10 col-10 mx-auto'>
+                    <div className='col-lg-10 col-12 mx-auto'>
                         <div className='card'>
                         <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
                             <div class="carousel-inner">
@@ -54,11 +54,11 @@ const ComputerParts = () => {
                                     <li>Here is the admin system created. There are some separate routers for admins. Which cannot be viewed without admin. They are in the router product add, showing everyone's order</li>
                                     <li>JWT tokens have been used for security</li>
                                 </ul>
-                                <p><b>Technology : </b> Html , css tailwind,react daisyUI react , react router, firebase , react toast  , node.js , express.js , mongodb, JWT token , heroku Icon   </p>
+                                <p><b>Technology : </b> Html , css tailwind,react daisyUI react , react router, firebase , react toast  , node.js , express.js , mongodb, JWT token , heroku Icon , Rest API , react query  </p>
                                 <p className='d-flex justify-content-between'>
-                                    <a class="btn btn-danger px-4 py-2 text-white fw-bold" href="https://ak-comput-parts-house.firebaseapp.com/" target="_blank">Live Demo</a>
-                                    <a class="btn btn-danger px-4 py-2 text-white fw-bold" href="https://github.com/akjilani120/ak-computer-parts-client-side" target="_blank">client github code</a>
-                                    <a class="btn btn-danger px-4 py-2 text-white fw-bold" href="https://github.com/akjilani120/ak-car-parts-house-server" target="_blank">Server github code</a>
+                                    <a class="btn btn-danger px-lg-4  mx-1  px-3 py-2 text-white fw-bold" href="https://ak-comput-parts-house.firebaseapp.com/" target="_blank">Live Demo</a>
+                                    <a class="btn btn-danger px-lg-4 mx-1  px-3 py-2 text-white fw-bold" href="https://github.com/akjilani120/ak-computer-parts-client-side" target="_blank">client github code</a>
+                                    <a class="btn btn-danger px-lg-4 px-3 py-2  mx-1 text-white fw-bold" href="https://github.com/akjilani120/ak-car-parts-house-server" target="_blank">Server github code</a>
                                 </p>
                             </div>
                         </div>

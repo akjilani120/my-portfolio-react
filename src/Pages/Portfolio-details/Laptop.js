@@ -56,9 +56,9 @@ const Laptop = () => {
                                 </ul>
                                 <p><b>Technology : </b> Html , css boostrap, react , react router, firebase , react toast jwt , node.js , express.js , mongodb,  </p>
                                 <p className='d-flex justify-content-between'>
-                                    <a class="btn btn-danger px-4 py-2 text-white fw-bold" href="https://ak-laptop-store-main.web.app/" target="_blank">Live Demo</a>
-                                    <a class="btn btn-danger px-4 py-2 text-white fw-bold" href="https://github.com/akjilani120/ak-laptop-store-client" target="_blank">client github code</a>
-                                    <a class="btn btn-danger px-4 py-2 text-white fw-bold" href="https://github.com/akjilani120/ak-laptop-store-server" target="_blank">Server github code</a>
+                                    <a class="btn btn-danger px-4 py-2  mx-1  text-white fw-bold" href="https://ak-laptop-store-main.web.app/" target="_blank">Live Demo</a>
+                                    <a class="btn btn-danger px-4 py-2 mx-1  text-white fw-bold" href="https://github.com/akjilani120/ak-laptop-store-client" target="_blank">client github code</a>
+                                    <a class="btn btn-danger px-4 py-2  mx-1 text-white fw-bold" href="https://github.com/akjilani120/ak-laptop-store-server" target="_blank">Server github code</a>
                                 </p>
                             </div>
                         </div>
