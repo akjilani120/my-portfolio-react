@@ -9,7 +9,21 @@ body {
     background-color: black;
     color: white;
 }
-
+.link-item , .link-item-brand{
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+    padding: 10px 15px ;
+    font-size: 18px;
+    border-radius: 5px;
+}
+.link-item-brand{
+    font-size: 22px;
+}
+.link-item:hover{
+    background-color: rgb(243, 45, 85);
+    color: white;
+}
 /* banner section */
 .banner-sec {
     padding: 20px;
@@ -158,7 +172,7 @@ letter-spacing: 1px;
 }
 .portfolio-heading-head{
     position: absolute;
-    bottom: 40%;
+    bottom: 50%;
     left: -10%;
   
 }

@@ -1,6 +1,20 @@
-import React from 'react';
-
+import React, { useRef } from 'react';
+import emailjs from '@emailjs/browser';
+import { ToastContainer, toast } from 'react-toastify';
+  import 'react-toastify/dist/ReactToastify.css';
 const Contact = () => {
+    const form = useRef();
+   
+    const sendEmail = (e) => {
+        e.preventDefault();
+    
+        emailjs.sendForm('service_hkumgow', 'template_nd3xbpg', form.current, 'jURxjrUHMky1qUUlk')
+          .then((result) => {
+              toast(result.text , "Success Your message");
+          }, (error) => {
+              console.log(error.text);
+          });
+      };
     return (
         <section>
         <div class="container">
@@ -12,8 +26,9 @@ const Contact = () => {
                 </div>
                 <div class="col-8 mx-auto" >
                     <div class="form-items">
-                        <form id="contact-form">
-                        <input class="form-control " type="hidden" name="contact_number" />
+                        <form id="contact-form" ref={form} onSubmit={sendEmail}>
+                        <label>Phone Number</label>
+                        <input class="form-control " type="number" name="contact_number" />
                         <div class="mt-3">
                             <label>Name</label>
                             <input class="form-control " type="text" name="user_name" />
@@ -34,6 +49,7 @@ const Contact = () => {
 
             </div>
         </div>
+        <ToastContainer />
     </section>
     );
 };
