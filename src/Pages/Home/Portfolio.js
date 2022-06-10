@@ -36,7 +36,7 @@ const Portfolio = () => {
                                             <p><b>Technology :</b>Html , css boostrap, react , react router,  node.js , express.js , mongodb </p>
                                             
                                             <button onClick={handleLaptop} className='btn btn-warning px-4 py-2 text-white'>About More</button>
-                                            {/* <a class="btn btn-warning px-4 py-2 text-white fw-bold" href="https://ak-laptop-store-main.web.app/" target="_blank">Live Demo</a> */}
+                                           
                                         </div>
                                     </div>
                                 </div>
