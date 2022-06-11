@@ -3,6 +3,7 @@ import { useNavigate } from 'react-router-dom';
 import laptop1 from '../img/laptop-1.png'
 import computer1 from '../img/parts-1.png'
 import photograpy from '../img/photography-1.png'
+import { AnimationOnScroll } from 'react-animation-on-scroll';
 const Portfolio = () => {
     const navigate = useNavigate()
     const handleLaptop =() =>{
@@ -24,7 +25,9 @@ const Portfolio = () => {
                                 <h1 class="portfolio-heading">Portfolio</h1>
                             </div>
                         </div>
+                       
                         <div class="portfolio-img">
+                        <AnimationOnScroll animateIn="animate__shakeY" animateOut="animate__bounceOutRight">
                             <div class="row">
                                 <div class="col-lg-6">
                                     <div class="card card-item" >
@@ -47,7 +50,7 @@ const Portfolio = () => {
                                             <p class=""> <b>Description :</b>This is an ecommerce web site. This website is designed to sell various computer parts.t</p>
                                             <p><b>Technology :</b>Html , css tailwind, react , react router, react daisyUI , node.js , express.js , mongodb , react form  , react query </p>
                                             <button onClick={handleComputerParts} className='btn btn-warning px-4 py-2 text-white'>About More</button>
-                                            {/* <a class="btn btn-warning px-4 py-2  text-white fw-bold" href="https://ak-comput-parts-house.web.app/" target="_blank">Live Demo</a> */}
+                                          
                                         </div>
                                     </div>
                                 </div> 
@@ -58,12 +61,14 @@ const Portfolio = () => {
                                             <p class=""> <b>Description :</b>This is an ecommerce web site. This website is designed to sell various picture. It uses  for design and development</p>
                                             <p><b>Technology :</b> Html , css , css boostrap,  react , react router,  node.js  </p>
                                             <button onClick={handlePhotography} className='btn btn-warning px-4 py-2 text-white'>About More</button>
-                                            {/* <a class="btn btn-warning px-4 py-2  text-white fw-bold" href="https://ak-photographer.web.app/" target="_blank">Live Demo</a> */}
+                                           
                                         </div>
                                     </div>
                                 </div>
                             </div>
+                            </AnimationOnScroll>
                         </div>
+                        
                     </div>
                 </div>
             </div>

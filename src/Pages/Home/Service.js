@@ -1,9 +1,10 @@
 import React from 'react';
-
+import { AnimationOnScroll } from 'react-animation-on-scroll';
 const Service = () => {
     return (
-        <section class="mb-5">
-        <div class="container">
+        <section class="mb-5" id='parent'>
+        <AnimationOnScroll animateIn="animate__fadeInLeftBig">
+        <div class="container" >
             <div class="row " >
                 <div class="col-12">
                     <div class="about-title d-flex justify-content-start align-items-center mt-4 text-center">
@@ -36,6 +37,8 @@ const Service = () => {
             </div>
 
         </div>
+       
+        </AnimationOnScroll>
     </section>
     );
 };

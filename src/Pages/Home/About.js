@@ -1,8 +1,9 @@
 import React from 'react';
-
+import { AnimationOnScroll } from 'react-animation-on-scroll';
 const About = () => {
     return (
         <section>
+            <AnimationOnScroll animateIn="animate__bounceIn">
                 <div class="about-header my-5">
                     <div class="about-main row">
                         <div class="about-title-side col-lg-5 "  >
@@ -15,7 +16,7 @@ const About = () => {
                                 <div>
                                     <h1 class="me-title"> I am Junior Full Stact Web Developer <br /> Junior MERN Stack Developer
                                     </h1>
-                                    <p class="about-details">I am a junior web developer. I have a good knowledge of web
+                                    <p class="about-details">I am Abdul Kader Jilani.I read in Diploma in Computer Enginnering. I am a junior web developer. I have a good knowledge of web
                                         development. I can do a lot of beautiful professional web design and development. I have
                                         a good idea about html css javasripte, react, react router, node, express.js, mongodb,
                                         firebase etc. and can do a good job. I keep up to date on web design and development</p>
@@ -77,6 +78,7 @@ const About = () => {
                         </div>
                     </div>
                 </div>
+                </AnimationOnScroll>
             </section>
     );
 };

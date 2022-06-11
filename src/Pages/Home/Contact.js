@@ -2,6 +2,7 @@ import React, { useRef } from 'react';
 import emailjs from '@emailjs/browser';
 import { ToastContainer, toast } from 'react-toastify';
   import 'react-toastify/dist/ReactToastify.css';
+  import { AnimationOnScroll } from 'react-animation-on-scroll';
 const Contact = () => {
     const form = useRef();
    
@@ -17,6 +18,7 @@ const Contact = () => {
       };
     return (
         <section>
+            <AnimationOnScroll animateIn="animate__fadeInLeftBig">
         <div class="container">
             <div class="row px-3 px-lg-0">
                 <div class="col-12">
@@ -50,6 +52,7 @@ const Contact = () => {
             </div>
         </div>
         <ToastContainer />
+        </AnimationOnScroll>
     </section>
     );
 };

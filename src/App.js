@@ -1,5 +1,6 @@
 
 import { Route, Routes } from 'react-router-dom';
+import "animate.css/animate.min.css";
 import './App.css';
 import About from './Pages/About/About';
 import Blog from './Pages/Blog/Blog';

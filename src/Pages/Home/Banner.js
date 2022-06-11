@@ -1,6 +1,7 @@
 import React from 'react';
 import myImg from '../img/myimg1.jpg'
 import Typewriter from 'typewriter-effect';
+
 const Banner = () => {
     return (
         <section class="banner-sec ">
@@ -26,9 +27,12 @@ const Banner = () => {
                             </div>
                         </div>
                     </div>
-                    <div class="banner-img-side" data-aos="zoom-in-up">
+                   
+                    <div class="banner-img-side" >  
                         <img class="w-100" src={myImg} alt="profile image" />
+                       
                     </div>
+                    
                 </div>
             </div>
         </section>
