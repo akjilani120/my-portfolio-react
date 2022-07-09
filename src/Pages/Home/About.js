@@ -59,7 +59,14 @@ const About = () => {
                                         </div>
                                     </div>
                                     <div class="progress-items">
-                                        <h5 class="d-flex justify-content-between "> <span>Node</span> <span>60%</span> </h5>
+                                        <h5 class="d-flex justify-content-between "> <span>Node js</span> <span>60%</span> </h5>
+                                        <div class="progress">
+                                            <div class="progress-bar bg-warning" role="progressbar" style={{width:"60%"}}
+                                                aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                                        </div>
+                                    </div>
+                                    <div class="progress-items">
+                                        <h5 class="d-flex justify-content-between "> <span>Express js</span> <span>60%</span> </h5>
                                         <div class="progress">
                                             <div class="progress-bar bg-warning" role="progressbar" style={{width:"60%"}}
                                                 aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
