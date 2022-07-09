@@ -2,7 +2,7 @@ import React from 'react';
 import { useNavigate } from 'react-router-dom';
 import laptop1 from '../img/laptop-1.png'
 import computer1 from '../img/parts-1.png'
-import photograpy from '../img/photography-1.png'
+import car from '../img/car.png'
 import { AnimationOnScroll } from 'react-animation-on-scroll';
 const Portfolio = () => {
     const navigate = useNavigate()
@@ -56,10 +56,10 @@ const Portfolio = () => {
                                 </div> 
                                 <div class="col-lg-8 mt-4">
                                     <div class="card card-item" >
-                                        <img  class="w-100 card-item-img " src={photograpy} alt="" />
+                                        <img  class="w-100 card-item-img " src={car} alt="" />
                                         <div class="card-body">
-                                            <p class=""> <b>Description :</b>This is an ecommerce web site. This website is designed to sell various picture. It uses  for design and development</p>
-                                            <p><b>Technology :</b> Html , css , css boostrap,  react , react router,  node.js  </p>
+                                            <p class=""> <b>Description :</b>This is an ecommerce web site. This website is designed to sell various car. It uses  for design and development</p>
+                                            <p><b>Technology :</b>  Node.js  React.js, React Router, Rest API, Firebase, React hook form, React query, Express.js, Mongodb, Heroku, font awesome icons, React Toastify </p>
                                             <button onClick={handlePhotography} className='btn btn-warning px-4 py-2 text-white'>About More</button>
                                            
                                         </div>

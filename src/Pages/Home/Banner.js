@@ -22,7 +22,7 @@ const Banner = () => {
                             <h1 class="banner-about" id="example"></h1>
                             <div class="resume-file">
                                 <a class="resume-tag" target="_blank"
-                                    href="https://drive.google.com/file/d/1batCXTnseHP_ldK5_89kK8c0O6R5ZqDG/view?usp=sharing">Download
+                                    href="https://drive.google.com/file/d/1wp8f_RR_5QujfytNS3pMh5ZDJswnymRH/view?usp=sharing">Download
                                     Resume</a>
                             </div>
                         </div>
