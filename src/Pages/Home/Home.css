@@ -8,6 +8,7 @@ body {
     font-family: 'Roboto', sans-serif;
     background-color: black;
     color: white;
+    z-index: 1;
 }
 .link-item , .link-item-brand{
     text-decoration: none;
@@ -26,37 +27,47 @@ body {
 }
 /* banner section */
 .banner-sec {
-    padding: 20px;
+    padding: 20px 5px;
+    position: relative;
+    width: 100%;
+}
+.banner-main{
+    position: absolute;
+    top: 30px;
+    bottom: 0;
+    width: 100%;
 }
 
-.banner , .about-main {
+ .about-main {
     display: flex;
 }
 
-.banner-title-side,
-.banner-img-side 
+.banner-title-side
+
  {
-    width: 50%;
-    height: 500px;
+    width: 100%;
+   
 }
 
 .banner-title-side {
-    background: rgb(34, 193, 195);
-  
-    background-image: linear-gradient(to right top, #051937, #004d7a, #008793, #00bf72, #2102d47e);
+   color: white;
     text-align: center;
     padding: 10px;
     position: relative;
 }
 
-.banner-hello {
-    font-weight: 500;
-    font-size: 25px;
-}
 
 .banner-name {
-    font-size: 4rem;
-    font-weight: bolder;
+    font-size: 90px;
+    font-weight: 500;
+    font-family: 'Recoleta', sans-serif;
+
+}
+.job-title{
+    font-family: 'Gordita', sans-serif;                                                
+    font-size: 50px;   
+    font-weight: 500;  
+                                    
 }
 .resume-file{
     position: absolute;
@@ -70,22 +81,57 @@ body {
 .resume-tag{
     width: 150px;
     height: 60px ;
-    background-color: rgb(225, 188, 64);
+    
     font-size: 20px;
     font-weight: 500;
     text-decoration: none;
     color: white;
     padding: 15px;
     border-radius: 5px;
-    border: 2px solid white;
+    border: 2px solid #f9004d;
 }
 .resume-tag:hover{
-    background-color: rgb(22, 120, 74);
+    background-color: #f9004d;
     color: white;
     
 }
-.banner-img-side  img{
-    height: 500px;
+.hello-title{
+    color: #f9004d;
+    font-size: 40px;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+}
+.social-icon-part{
+    width: 10%;
+}
+.social-icon-part ul{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+.social-icon-part ul li{
+    margin: 25px auto;
+   
+    padding: 10px;
+    border-radius: 50%;
+}
+.social-icon-part ul li {}
+.social-icon{
+    color: #f9004d;
+    background-color: white;
+    padding: 10px;
+    border-radius: 50%;
+}
+.resume-file-part button{
+    background-color: #f9004d;
+    color: white;
+    padding: 10px;
+    width: 150px;
+    height: 60px ;
+    margin-left: 15px;
+    font-weight: 500;
+    font-size: 18px;
+    border-radius: 5px;
 }
 /* banner section over */
 /* about section  */
