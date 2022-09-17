@@ -7,6 +7,7 @@ import './Home.css'
 import Portfolio from './Portfolio';
 import Service from './Service';
 import { Parallax, Background } from 'react-parallax';
+import HomeAbout from './HomeAbout';
 
 const Home = () => {
 
@@ -15,6 +16,7 @@ const Home = () => {
         <div>
             <Pertice/>
              <Banner/>
+             <HomeAbout/>
              <About></About>
             <Service></Service>
             <Portfolio></Portfolio>
