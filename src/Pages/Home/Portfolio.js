@@ -27,46 +27,46 @@ const Portfolio = () => {
                         </div>
 
                         <div class="portfolio-img px-3 py-4">
-                            {/* <AnimationOnScroll animateIn="animate__shakeY" animateOut="animate__bounceOutRight"> */}
+                            <AnimationOnScroll animateIn="animate__shakeY" animateOut="animate__bounceOutRight">
                                 <div class="row">
-                                    <div class="col-lg-4">
-                                        <div class=" card-item" >
+                                    <div class="col-lg-4 ">
+                                        <div class=" card-item m-lg-2 m-4" >
                                             <img className="w-100 card-item-img" src={car} alt="" />
                                             <div className="card-item-overflow">
                                                 <div className="portfolio-details">
                                                     <h3 className='portfolio-name mb-3'>Brand Car House</h3>
                                                     <h5 className='portfoli-about'>This is a fully responsive manufacturer website.</h5>
                                                     <div className="portfolio-details-btn text-center mt-5">
-                                                        <button className='portfolio-btn'>Show Details</button>
+                                                        <button onClick={handlePhotography} className='portfolio-btn'>Show Details</button>
                                                     </div>
                                                 </div>
 
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="col-lg-4 ">
-                                        <div class=" card-item"  >
+                                    <div class="col-lg-4  ">
+                                        <div class=" card-item m-lg-2 m-4"  >
                                             <img className="w-100 card-item-img" src={computer1} alt="" />
                                           <div className="card-item-overflow">
                                             <div className="portfolio-details">
                                                 <h3 className='portfolio-name mb-3'>Computer Parts House</h3>
                                                 <h5 className='portfoli-about'>This is a fully responsive manufacturer website.</h5>
                                                 <div className="portfolio-details-btn text-center mt-5">
-                                                    <button className='portfolio-btn'>Show Details</button>
+                                                    <button onClick={handleComputerParts} className='portfolio-btn'>Show Details</button>
                                                 </div>
                                             </div>
                                             </div>  
                                         </div>
                                     </div>
-                                    <div class="col-lg-4 ">
-                                        <div class=" card-item" >
+                                    <div class="col-lg-4  ">
+                                        <div class=" card-item m-lg-2 m-4" >
                                             <img className="w-100 card-item-img" src={laptop1} alt="" />
                                           <div className="card-item-overflow">
                                             <div className="portfolio-details">
                                                 <h3 className='portfolio-name mb-3'>Ak laptop shop</h3>
                                                 <h5 className='portfoli-about'>This is a fully responsive manufacturer website.</h5>
                                                 <div className="portfolio-details-btn text-center mt-5">
-                                                    <button className='portfolio-btn'>Show Details</button>
+                                                    <button onClick={handleLaptop} className='portfolio-btn'>Show Details</button>
                                                 </div>
                                             </div>
                                             </div> 
@@ -74,11 +74,11 @@ const Portfolio = () => {
                                     </div>
                                     <div className="col-12 text-center mt-4">
                                        <div className='py-5'>
-                                       <a className='porfilio-more-link' href=""> View More</a>
+                                       <a className='porfilio-more-link' target="blank" href="https://github.com/akjilani120"> View More</a>
                                        </div>
                                     </div>
                                 </div>
-                            {/* </AnimationOnScroll> */}
+                            </AnimationOnScroll>
                         </div>
 
                     </div>
