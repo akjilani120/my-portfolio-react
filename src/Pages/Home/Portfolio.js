@@ -6,13 +6,13 @@ import car from '../img/car.png'
 import { AnimationOnScroll } from 'react-animation-on-scroll';
 const Portfolio = () => {
     const navigate = useNavigate()
-    const handleLaptop =() =>{
+    const handleLaptop = () => {
         navigate("/laptop")
     }
-    const handleComputerParts =() =>{
+    const handleComputerParts = () => {
         navigate("/computerParts")
     }
-    const handlePhotography =() =>{
+    const handlePhotography = () => {
         navigate("/photography ")
     }
     return (
@@ -22,53 +22,65 @@ const Portfolio = () => {
                     <div class="portfolio-main">
                         <div class="portfolio-title">
                             <div class="portfolio-heading-head">
-                                <h1 class="portfolio-heading">Portfolio</h1>
+                                <h1 class="portfolio-heading">My Latest Project</h1>
                             </div>
                         </div>
-                       
-                        <div class="portfolio-img">
-                        <AnimationOnScroll animateIn="animate__shakeY" animateOut="animate__bounceOutRight">
-                            <div class="row">
-                                <div class="col-lg-6">
-                                    <div class="card card-item" >
 
-                                        <img className='w-100 card-item-img' src={laptop1} alt="laptop img"></img>
+                        <div class="portfolio-img px-3 py-4">
+                            {/* <AnimationOnScroll animateIn="animate__shakeY" animateOut="animate__bounceOutRight"> */}
+                                <div class="row">
+                                    <div class="col-lg-4">
+                                        <div class=" card-item" >
+                                            <img className="w-100 card-item-img" src={car} alt="" />
+                                            <div className="card-item-overflow">
+                                                <div className="portfolio-details">
+                                                    <h3 className='portfolio-name mb-3'>Brand Car House</h3>
+                                                    <h5 className='portfoli-about'>This is a fully responsive manufacturer website.</h5>
+                                                    <div className="portfolio-details-btn text-center mt-5">
+                                                        <button className='portfolio-btn'>Show Details</button>
+                                                    </div>
+                                                </div>
 
-                                        <div class="card-body">
-                                            <p class=""> <b>Description :</b> This is an ecommerce web site. This website is designed to sell various laptop. </p>
-                                            <p><b>Technology :</b>Html , css boostrap, react , react router,  node.js , express.js , mongodb </p>
-                                            
-                                            <button onClick={handleLaptop} className='btn btn-warning px-4 py-2 text-white'>About More</button>
-                                           
+                                            </div>
                                         </div>
+                                    </div>
+                                    <div class="col-lg-4 ">
+                                        <div class=" card-item"  >
+                                            <img className="w-100 card-item-img" src={computer1} alt="" />
+                                          <div className="card-item-overflow">
+                                            <div className="portfolio-details">
+                                                <h3 className='portfolio-name mb-3'>Computer Parts House</h3>
+                                                <h5 className='portfoli-about'>This is a fully responsive manufacturer website.</h5>
+                                                <div className="portfolio-details-btn text-center mt-5">
+                                                    <button className='portfolio-btn'>Show Details</button>
+                                                </div>
+                                            </div>
+                                            </div>  
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4 ">
+                                        <div class=" card-item" >
+                                            <img className="w-100 card-item-img" src={laptop1} alt="" />
+                                          <div className="card-item-overflow">
+                                            <div className="portfolio-details">
+                                                <h3 className='portfolio-name mb-3'>Ak laptop shop</h3>
+                                                <h5 className='portfoli-about'>This is a fully responsive manufacturer website.</h5>
+                                                <div className="portfolio-details-btn text-center mt-5">
+                                                    <button className='portfolio-btn'>Show Details</button>
+                                                </div>
+                                            </div>
+                                            </div> 
+                                        </div>
+                                    </div>
+                                    <div className="col-12 text-center mt-4">
+                                       <div className='py-5'>
+                                       <a className='porfilio-more-link' href=""> View More</a>
+                                       </div>
                                     </div>
                                 </div>
-                                <div class="col-lg-6 mt-3 mt-lg-0">
-                                    <div class="card card-item" >
-                                        <img class="w-100 card-item-img" src={computer1} alt="" />
-                                        <div class="card-body">
-                                            <p class=""> <b>Description :</b>This is an ecommerce web site. This website is designed to sell various computer parts.t</p>
-                                            <p><b>Technology :</b>Html , css tailwind, react , react router, react daisyUI , node.js , express.js , mongodb , react form  , react query </p>
-                                            <button onClick={handleComputerParts} className='btn btn-warning px-4 py-2 text-white'>About More</button>
-                                          
-                                        </div>
-                                    </div>
-                                </div> 
-                                <div class="col-lg-8 mt-4">
-                                    <div class="card card-item" >
-                                        <img  class="w-100 card-item-img " src={car} alt="" />
-                                        <div class="card-body">
-                                            <p class=""> <b>Description :</b>This is an ecommerce web site. This website is designed to sell various car. It uses  for design and development</p>
-                                            <p><b>Technology :</b>  Node.js  React.js, React Router, Rest API, Firebase, React hook form, React query, Express.js, Mongodb, Heroku, font awesome icons, React Toastify </p>
-                                            <button onClick={handlePhotography} className='btn btn-warning px-4 py-2 text-white'>About More</button>
-                                           
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            </AnimationOnScroll>
+                            {/* </AnimationOnScroll> */}
                         </div>
-                        
+
                     </div>
                 </div>
             </div>

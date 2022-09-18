@@ -206,44 +206,93 @@ letter-spacing: 1px;
 /* Service section over */
 /* Portfolio section */
 .portfolio-head{
-    background-color:rgb(37, 17, 112) ;
+    background-color:#191919 ;
     padding-top: 50px;
-    padding-bottom: 30px;   
+    padding-bottom: 50px;  
+    font-family: 'Poppins', sans-serif;
     position: relative;
-}
-.portfolio-main{
-    display: flex;
-}
-.portfolio-title{
-    width: 15%;    
-  
-}
-.portfolio-img{
-    width: 85%;
-    background-color: black;   
-    background-attachment: fixed;
-    padding: 15px;
+    
 }
 .portfolio-heading{
-    font-size: 80px;
-    font-weight: bolder;
-    transform: rotate(-90deg);
-    text-transform: uppercase;
-    letter-spacing: 3px;
+    font-size: 70px;
+    text-align: center;
+    margin: 25px auto;
+    font-weight: 700;
 }
-.portfolio-heading-head{
-    position: absolute;
-    bottom: 50%;
-    left: -10%;
-  
-}
-.card-item{
-   height: 500px;
+
+
+
+.card-item{   
    color: black;
+   background-size: cover;
+   background-position: center;
+   background-repeat: no-repeat;
+   position: relative;
+   border-radius: 5px;
+  
    
 }
 .card-item-img{
-    height: 300px;
+    height: 600px;
+    border-radius: 5px;
+    opacity: .7;
+    transition: 400ms;
+}
+.card-item:hover .card-item-overflow{
+ background-image: linear-gradient(#f6004ee5 10%,rgba(0, 0, 0, 0.836));
+ color: rgb(231, 226, 226);
+ transform: scale(1.1);
+}
+.card-item:hover .card-item-img{
+    transform: scale(1.1);
+}
+.card-item-overflow{   
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    padding: 15px;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    border-radius: 5px;
+    color: rgb(245, 143, 10);
+    transition: 400ms;
+}
+.portfolio-btn{
+    outline: none;
+    border: 1px solid white;
+    padding: 10px;
+    color: white;
+    font-size: 18px;
+    background-color: transparent;
+    margin-top: 15px;
+    border-radius: 5px;
+}
+.portfolio-btn:hover{
+    background-color: #f6004eef;
+}
+.porfilio-more-link{
+
+    width: 280px;
+    height: 100px;
+    background-color: #ff0751;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 18px;
+    padding: 15px 25px;
+    border-radius: 5px;
+   font-weight: 500;
+   letter-spacing: 1px;
+   transition: 400ms;
+    
+}
+.porfilio-more-link:hover{
+    background-color: transparent;
+    border: 1px solid red;
+    color: red;
+    
 }
 /* Portfolio section over */
 /* contact me section */
@@ -281,6 +330,14 @@ footer{
     align-items: center;
 }
 /* home about section start */
+.home-about-main{
+    background-color: #191919;
+    position: relative;
+   
+}
+.home-about-body{
+   padding: 100px 10px;
+}
 .about-img-part{
     background-color: rgb(58, 57, 57);
     z-index: 1;
