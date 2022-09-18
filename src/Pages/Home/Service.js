@@ -2,9 +2,9 @@ import React from 'react';
 import { AnimationOnScroll } from 'react-animation-on-scroll';
 const Service = () => {
     return (
-        <section class="mb-5" id='parent'>
+        <section class="my-5" id='parent'>
         <AnimationOnScroll animateIn="animate__fadeInLeftBig">
-        <div class="container" >
+        <div class="px-4" >
             <div class="row " >
                 <div class="col-12">
                     <div class="about-title d-flex justify-content-start align-items-center mt-4 text-center">
@@ -15,24 +15,35 @@ const Service = () => {
                 </div>
                 <div class="col-12 col-md-6 col-lg-4 text-center mt-3">
                     <div class="service-items">
-                        <p> <i class="service-icon fa-brands fa-css3-alt"></i></p>
-                        <h3 class="service-items-title">Front-end  Design</h3>
-                        <p>HTML , HTML5,  CSS3 , CSS bootstrap 5,  CSS Tailwind , React daisyUI,   </p>
+                        <p> <i class="service-icon fa-sharp fa-solid fa-code"></i></p>
+                        <h3 class="service-items-title">Web Developer</h3>
+                       
                     </div>
                 </div>
                 <div class="col-12 col-md-6 col-lg-4 text-center mt-3">
                     <div class="service-items service-border">
                         <p> <i class="service-icon fa-brands fa-react"></i></p>
-                        <h3 class="service-items-title">Back-end Development</h3>
-                        <p>javasripte , ES6, React , React Router, Node.js </p>
+                        <h3 class="service-items-title">React Developer</h3>                       
                     </div>
                 </div>
                 <div class="col-12 col-md-6 col-lg-4 text-center mt-3">
                     <div class="service-items">
-                        <p> <i class="service-icon fa-solid fa-server"></i></p>
-                        <h3 class="service-items-title">Server Development</h3>
-                        <p>Express.js Mongodb </p>
+                        <p> <i class="service-icon fa-solid fa-laptop-code"></i></p>
+                        <h3 class="service-items-title">Frontend Developer</h3>
+                       
                     </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4 text-center mt-3">
+                    <div class="service-items">
+                        <p> <i class="service-icon fa-solid fa-file-code"></i></p>
+                        <h3 class="service-items-title">Javascript Developer</h3>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4 text-center mt-3">
+                    <div class="service-items">
+                        <p> <i class="service-icon fa-solid fa-layer-group"></i></p>
+                        <h3 class="service-items-title">MERN Stack Developer</h3>
+                            </div>
                 </div>
             </div>
 

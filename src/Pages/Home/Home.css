@@ -166,6 +166,11 @@ body {
 }
 /* about section over */
 /* Service section */
+.about-me{
+    font-size: 70px;
+    font-weight: 600;
+    font-family: monospace;
+}
 .service-title{
     font-size: 60px;
     font-weight: bolder;
@@ -174,8 +179,18 @@ body {
     font-weight: 600;
 }
 .service-items{
-
-padding: 0px 10px;
+background: #191919;
+padding: 25px;
+height: 250px;
+border-radius: 8px;
+transition: 400ms;
+}
+.service-items:hover{
+    background-image: linear-gradient(90deg,#f61b10,#ef0963);
+    transform: translateY(-10px);
+}
+.service-items:hover .service-icon{
+    color: white;
 }
 .service-border{
     border-left: 1px solid rgb(37, 17, 112);
@@ -186,7 +201,7 @@ letter-spacing: 1px;
 }
 .service-icon{
     font-size: 70px;
-   color: rgb(235, 131, 248);
+   color: #f9004d;
 }
 /* Service section over */
 /* Portfolio section */
@@ -274,6 +289,7 @@ footer{
     width: 100%;
     z-index: 99999;
     opacity: .7;
+    height: 620px;
 }
 .about-img-part:hover{
     background-color: #020da18e;
