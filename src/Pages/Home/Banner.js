@@ -27,7 +27,7 @@ const Banner = () => {
                             <h1 className='hello-title text-start'>Hello , I'm</h1>
                             <h1 class="banner-name text-start mb-0">Abdul Kader Jilani</h1>
                             <h1 className='hello-title text-start m-0 p-0'>Full Stack Web Developer</h1>
-                            <h1 className='job-title text-center '>  <Typewriter className=" "
+                            <h1 className='job-title text-start '>  <Typewriter className=" "
                                 options={{
                                     strings: [' Web Developer', ' MERN Stack Developer', 'Frontend Developer', 'ReactJS Developer'],
                                     autoStart: true,
