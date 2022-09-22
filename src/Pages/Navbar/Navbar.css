@@ -1,0 +1,53 @@
+.navbar-main-color{
+    background-color: #191919;
+    position: fixed;
+    width: 100%;
+    padding: 8px;
+    transition: 500ms;   
+    box-shadow: 5px 2px 15px #f9004d;
+}
+.navbar-main{
+    transition: 400ms;
+    z-index: 1;
+    
+}
+.navbar{
+    position: relative;
+}
+.brand-logo{
+    color: #f9004d;
+    font-weight: 600;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 25px;
+}
+.navigation-items-link{
+    color: white;
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: 500;
+    text-decoration: none;
+    letter-spacing: 1px;
+    font-family: 'Poppins', sans-serif;
+    list-style: 10px;
+}
+.nav-item{
+    border-right: 2px solid #f9004d;  
+    margin: 0px 10px;
+    padding: 5px 10px;
+    height: 35px;
+    text-align: center;
+}
+.nav-item:hover{
+    border: 1px solid #f9004d;
+}
+.nav-item:hover .navigation-items-link{
+    color: #f9004d;
+}
+.resumi-list{
+ border: 1px solid #f9004d;
+ padding: 5px 10px;
+ 
+}
+.resumi-item{
+    color: #f9004d;
+}

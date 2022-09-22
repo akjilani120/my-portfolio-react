@@ -2,6 +2,7 @@ import React from 'react';
 import { Outlet } from 'react-router-dom';
 import CustomProfileLink from '../Component/CustomProfileLink';
 import aboutImg from '../img/about-img.png'
+import aboutImg2 from '../img/MyImage.png'
 const HomeAbout = () => {
     return (
         <div className='home-about-main px-3'>
@@ -9,7 +10,7 @@ const HomeAbout = () => {
                 <div className="row">
                     <div className="col-md-5">
                         <div className="about-img-part">
-                            <img src={aboutImg} alt="" />
+                            <img src={aboutImg2} alt="" />
                         </div>
 
                     </div>
