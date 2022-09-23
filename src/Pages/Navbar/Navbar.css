@@ -11,6 +11,15 @@
     z-index: 1;
     
 }
+.menu-bar-icon{
+    font-size: 25px;
+    color: red;
+}
+.nav-tog{
+    outline: none;
+    border: 1px solid white;
+    
+}
 .navbar{
     position: relative;
 }
@@ -55,4 +64,12 @@
 }
 .resumi-item{
     color: #f9004d;
+}
+@media screen and (max-width:950px) {
+    .nav-item{
+        border: none;
+    }
+    .nav-item:hover{
+        border: none;
+    }
 }

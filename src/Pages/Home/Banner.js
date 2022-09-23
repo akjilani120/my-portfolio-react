@@ -1,9 +1,5 @@
 import React from 'react';
-import myImg from '../img/myimg1.jpg'
 import Typewriter from 'typewriter-effect';
-import Particles from "react-tsparticles";
-import { loadFull } from "tsparticles";
-import { useCallback } from "react";
 import Pertice from '../Component/Pertice';
 const Banner = () => {
    
@@ -23,11 +19,11 @@ const Banner = () => {
                             <li><a target="_blank" href="https://www.facebook.com/abdulkader.jilani.7393/"><svg className="social-icon" stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 16 16" height="3em" width="3em" xmlns="http://www.w3.org/2000/svg"><path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z"></path></svg></a></li>
                         </ul>
                       </div>
-                        <div class="banner-title-part py-5 ms-3 ">
-                            <h1 className='hello-title text-start'>Hello , I'm</h1>
+                        <div class="banner-title-part py-5 ms-3  ">
+                            <h1 className='hello-title text-start ms-3 ms-md-0'>Hello , I'm</h1>
                             <h1 class="banner-name text-start mb-0">Abdul Kader Jilani</h1>
-                            <h1 className='hello-title text-start m-0 p-0'>Full Stack Web Developer</h1>
-                            <h1 className='job-title text-start '>  <Typewriter className=" "
+                            <h1 className='hello-title text-start m-0 p-0 ms-3 ms-md-0'>Full Stack Web Developer</h1>
+                            <h1 className='job-title text-start ms-3 ms-md-0 '>  <Typewriter className=" "
                                 options={{
                                     strings: [' Web Developer', ' MERN Stack Developer', 'Frontend Developer', 'ReactJS Developer'],
                                     autoStart: true,
@@ -40,7 +36,7 @@ const Banner = () => {
                             <a class="resume-tag"  target="_blank"
                                     href="https://drive.google.com/file/d/1dWIs_e7iO_RRWuAl79NKWNTBcg2Fie9H/view?usp=sharing">Download
                                     Resume</a>
-                           <button className=''>About Me</button>
+                           
                            </div>
                            
                         </div>

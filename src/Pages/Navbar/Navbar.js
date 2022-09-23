@@ -18,9 +18,9 @@ const Navbar = () => {
             <nav class="navbar navbar-expand-lg   w-100 px-3">
                   
                         <h5 class="brand-logo "  href="/" >Ak Jilani</h5>
-                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText"
+                        <button class="navbar-toggler nav-tog " type="button" data-bs-toggle="collapse" data-bs-target="#navbarText"
                             aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
-                            <span class="navbar-toggler-icon"></span>
+                            <i class="menu-bar-icon fa-solid fa-bars"></i>
                         </button>
                         <div class="collapse navbar-collapse" id="navbarText">
                             <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
@@ -32,7 +32,7 @@ const Navbar = () => {
                                 </li>
                                 
                                 <li class="nav-item">
-                                <Link to="about" spy={true} smooth={true} offset={-100} duration={500} className="navigation-items-link"  >Skills </Link>
+                                <Link to="skills" spy={true} smooth={true} offset={-100} duration={500} className="navigation-items-link"  >Skills </Link>
                                 </li>
                                 <li class="nav-item">
                                 <Link to="parent" spy={true} smooth={true} offset={-100} duration={500} className="navigation-items-link"  >Service </Link>
@@ -44,10 +44,7 @@ const Navbar = () => {
                                 </li>
                                 <li class="nav-item">
                                 <Link to="contact" spy={true} smooth={true} offset={-150} duration={500} className="navigation-items-link"  >Contact </Link>
-                                </li>
-                                <li class="nav-item">
-                                    <a class=" navigation-items-link" href="#">BLOG</a>
-                                </li>
+                                </li>                               
                                 <li class="nav-item resumi-list">
                                     <a class="resumi-item navigation-items-link" href="https://drive.google.com/file/d/1dWIs_e7iO_RRWuAl79NKWNTBcg2Fie9H/view?usp=sharing" target="blank">Resume</a>
                                 </li>
