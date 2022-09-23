@@ -5,12 +5,12 @@ import aboutImg from '../img/about-img.png'
 import aboutImg2 from '../img/MyImage.png'
 const HomeAbout = () => {
     return (
-        <div className='home-about-main px-3'>
+        <div className='home-about-main px-3' id='about'>
             <div className="home-about-body">
                 <div className="row">
                     <div className="col-md-5">
                         <div className="about-img-part">
-                            <img src={aboutImg2} alt="" />
+                            <img src={aboutImg} alt="" />
                         </div>
 
                     </div>

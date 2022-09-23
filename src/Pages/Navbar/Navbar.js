@@ -1,5 +1,6 @@
 import React from 'react';
 import { useState } from 'react';
+import { Link } from 'react-scroll'
 import './Navbar.css';
 
 const Navbar = () => {
@@ -24,20 +25,25 @@ const Navbar = () => {
                         <div class="collapse navbar-collapse" id="navbarText">
                             <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                                 <li class="nav-item">
-                                    <a class="  navigation-items-link"  href="">About </a>
+                                    <Link to="banner" spy={true} smooth={true} offset={-100} duration={500} className="navigation-items-link">Home </Link>
+                                </li>
+                                <li class="nav-item">
+                                    <Link to="about" spy={true} smooth={true} offset={-100} duration={500} className="navigation-items-link">About </Link>
                                 </li>
                                 
                                 <li class="nav-item">
-                                    <a class=" navigation-items-link" href="#">Skills</a>
+                                <Link to="about" spy={true} smooth={true} offset={-100} duration={500} className="navigation-items-link"  >Skills </Link>
                                 </li>
                                 <li class="nav-item">
-                                    <a class=" navigation-items-link" href="#">Service</a>
+                                <Link to="parent" spy={true} smooth={true} offset={-100} duration={500} className="navigation-items-link"  >Service </Link>
+                                   
                                 </li>
                                 <li class="nav-item">
-                                    <a class=" navigation-items-link" href="#">PORTFOLIO</a>
+                                <Link to="portfolio" spy={true} smooth={true} offset={-100} duration={500} className="navigation-items-link"  >PORTFOLIO </Link>
+                                    
                                 </li>
                                 <li class="nav-item">
-                                    <a class=" navigation-items-link" href="#">CONTACT</a>
+                                <Link to="contact" spy={true} smooth={true} offset={-150} duration={500} className="navigation-items-link"  >Contact </Link>
                                 </li>
                                 <li class="nav-item">
                                     <a class=" navigation-items-link" href="#">BLOG</a>

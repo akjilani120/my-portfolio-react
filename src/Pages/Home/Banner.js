@@ -8,7 +8,7 @@ import Pertice from '../Component/Pertice';
 const Banner = () => {
    
     return (
-        <section class="banner-sec ">
+        <section class="banner-sec " id='banner'>
             <Pertice/>
             <div class=" banner-main">   
                        

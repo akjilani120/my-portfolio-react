@@ -2,7 +2,7 @@ import React from 'react';
 import { AnimationOnScroll } from 'react-animation-on-scroll';
 const Service = () => {
     return (
-        <section class="my-5" id='parent'>
+        <section class="my-5" id='parent' >
         <AnimationOnScroll animateIn="animate__fadeInLeftBig">
         <div class="px-4" >
             <div class="row " >

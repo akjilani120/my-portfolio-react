@@ -17,7 +17,7 @@ const Contact = () => {
           });
       };
     return (
-        <section>
+        <section id='contact'>
             <AnimationOnScroll animateIn="animate__fadeInLeftBig">
         <div class="px-3">
             <div class="row px-3 px-lg-0">

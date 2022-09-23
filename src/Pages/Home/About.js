@@ -2,7 +2,7 @@ import React from 'react';
 import { AnimationOnScroll } from 'react-animation-on-scroll';
 const About = () => {
     return (
-        <section>
+        <section >
             <AnimationOnScroll animateIn="animate__bounceIn">
                 <div class="about-header my-5">
                     <div class="about-main row">

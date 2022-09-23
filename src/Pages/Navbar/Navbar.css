@@ -29,6 +29,7 @@
     letter-spacing: 1px;
     font-family: 'Poppins', sans-serif;
     list-style: 10px;
+    cursor: pointer;
 }
 .nav-item{
     border-right: 2px solid #f9004d;  

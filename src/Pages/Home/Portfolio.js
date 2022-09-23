@@ -16,7 +16,7 @@ const Portfolio = () => {
         navigate("/photography ")
     }
     return (
-        <section>
+        <section id='portfolio'>
             <div class="portfolio-head">
                 <div class="">
                     <div class="portfolio-main">
@@ -27,7 +27,7 @@ const Portfolio = () => {
                         </div>
 
                         <div class="portfolio-img px-3 py-4">
-                            <AnimationOnScroll animateIn="animate__shakeY" animateOut="animate__bounceOutRight">
+                           
                                 <div class="row">
                                     <div class="col-lg-4 ">
                                         <div class=" card-item m-lg-2 m-4" >
@@ -78,7 +78,7 @@ const Portfolio = () => {
                                        </div>
                                     </div>
                                 </div>
-                            </AnimationOnScroll>
+                            
                         </div>
 
                     </div>
