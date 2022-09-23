@@ -38,6 +38,10 @@
     height: 35px;
     text-align: center;
 }
+.nav-item .active{
+    border: 1px solid #f9004d;
+    padding: 5px 10px;
+}
 .nav-item:hover{
     border: 1px solid #f9004d;
 }
