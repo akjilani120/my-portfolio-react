@@ -260,6 +260,8 @@ letter-spacing: 1px;
     background-color: transparent;
     margin-top: 15px;
     border-radius: 5px;
+    text-decoration: none;
+    margin-left:8px;
 }
 .portfolio-btn:hover{
     background-color: #f6004eef;
