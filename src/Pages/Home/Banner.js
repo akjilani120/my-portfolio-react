@@ -50,7 +50,7 @@ const Banner = () => {
                   </a>
                 </li>
                 <li>
-                  <a target="blank" href="">
+                  <a target="blank" href="https://twitter.com/Abdulka08678586">
                     <svg
                       className="social-icon"
                       stroke="currentColor"
