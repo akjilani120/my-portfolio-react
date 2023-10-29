@@ -1,21 +1,9 @@
 import React from "react";
-import { useNavigate } from "react-router-dom";
-
 import computer1 from "../img/parts-1.png";
 import car from "../img/car.png";
 import akcar from "../img/ak-car-main.png";
-import { AnimationOnScroll } from "react-animation-on-scroll";
+
 const Portfolio = () => {
-  const navigate = useNavigate();
-  const handleLaptop = () => {
-    navigate("/laptop");
-  };
-  const handleComputerParts = () => {
-    navigate("/computerParts");
-  };
-  const handlePhotography = () => {
-    navigate("/photography ");
-  };
   return (
     <section id="portfolio">
       <div class="portfolio-head">
@@ -52,7 +40,7 @@ const Portfolio = () => {
                                 className="portfolio-btn"
                                 target="_blank"
                               >
-                                Show Details
+                                Show website
                               </a>
                               <a
                                 target="_blank"

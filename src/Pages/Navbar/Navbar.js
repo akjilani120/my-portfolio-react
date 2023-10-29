@@ -1,6 +1,7 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { useState } from "react";
 import { Link } from "react-scroll";
+import resume from "../img/resume.pdf";
 import "./Navbar.css";
 
 const Navbar = () => {
@@ -12,12 +13,15 @@ const Navbar = () => {
       setColor(false);
     }
   };
-  window.addEventListener("scroll", chanceColor);
+  useEffect(() => {
+    window.addEventListener("scroll", chanceColor);
+  }, []);
+
   return (
     <div className={color ? "navbar-main navbar-main-color" : "navbar-main"}>
       <nav class="navbar navbar-expand-lg   w-100 px-3">
         <h5 class="brand-logo " href="/">
-          Ak Jilani
+          Abdul Kader Jilani
         </h5>
         <button
           class="navbar-toggler nav-tog "
@@ -108,8 +112,8 @@ const Navbar = () => {
             <li class="nav-item resumi-list">
               <a
                 class="resumi-item navigation-items-link"
-                href="https://drive.google.com/file/d/1dWIs_e7iO_RRWuAl79NKWNTBcg2Fie9H/view?usp=sharing"
-                target="blank"
+                href={resume}
+                download={"resume"}
               >
                 Resume
               </a>
